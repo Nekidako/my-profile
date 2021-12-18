@@ -1,0 +1,72 @@
+h2 {
+  color: rgb(30, 30, 30);
+font-size: 25px;
+font-family: Helvetica;
+text-align: center;
+}
+
+h1{
+text-align: center;
+}
+
+.img-circle {
+border-radius: 20%;
+}
+
+#Thibault {
+width: 150px;
+display: block;
+    margin-left: auto;
+    margin-right: auto;                      
+
+box-shadow: 0 10px 30px grey;
+border: 5px solid rgb(199,166,127);
+
+}
+
+body {
+  color: rgb(10, 10, 10);  
+  background-color: rgb(199,166,127);
+}
+
+.card-white{
+background-color: rgb(185,208,179);
+box-shadow: 0 10px 10px rgba(0,0,0,.1);
+margin: 30px ;
+padding: 5px;
+border-radius: 15px;
+}
+@media(min-width : 576px) and (max-width: 767px){
+.card-white{ width: 540px}
+}
+@media (max-width : 575){
+.card-white {
+margin: 0
+}
+}
+
+a:hover {
+  background-color: rgb(199,166,127);
+}
+
+
+.list-inline {
+list-style: none;
+text-align: center ;
+padding-left: 0;
+}
+
+.list-inline li {
+display : inline;
+padding : 10px;
+}
+
+.list-inline li {
+font-size : 40px;
+}
+
+i {color: black;}
+
+p {
+text-align: center;
+}
